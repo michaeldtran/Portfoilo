@@ -1,0 +1,66 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation CSS */ 
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    justify-content: space-between;
+  }
+#navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+.topnav {
+    display: block;
+}
+.topnav a {
+    float: left;
+    color: teal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.topnav a:hover {
+    background-color: teal;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    float: left;
+}
+header {
+    position: absolute;
+    left: 25%;
+}
+/* Left Rail CSS */
+
+#leftrail {
+    position: fixed;
+}
+
+/*Typography CSS */
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+/* Footer CSS */
+.footer {
+    background-color: #092327;
+    color: #EFF0F3;
+    padding: 28px;
+}
+.footerLinks {
+    position: relative;
+    float: right;
+}
